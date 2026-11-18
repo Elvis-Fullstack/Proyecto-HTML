@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "type": "editor-browser",
+            "request": "launch",
+            "name": "Open index.html",
+            "url": "file:///Users/elvisvalero/Desktop/html/proyecto%20HTML/index.html"
+        },
+        {
+            "type": "chrome",
+            "name": "http://127.0.0.1:3000/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/index.html"
+        }
+    ]
+}
